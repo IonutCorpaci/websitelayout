@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    color: black;
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: 100;
+}
+
+.wrapper {
+    max-width: 90%;
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* HEADER */
+.header__logo {
+    font-size: 2.7em;
+}
+.col-1 {
+    text-align: center;
+}
+.header__inner {
+    padding-top: 2.5vh;
+    padding-bottom: 2.5vh;
+}
+
+/* NAV */
+
+.nav__link {
+    text-decoration: none;
+    color: #949292;
+}
+
+.nav__link:hover {
+    color: black;
+}
+
+/* Image section */
+
+.image__section {
+    background: url(../imgs/hero.jpg) center no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    height: 450px;
+    position: relative;
+}
+.image__text {
+    color: #fff;
+    font-weight: 600;
+    background: rgb(82, 179, 82);
+    font-size: 1.5em;
+    padding: 15px;
+    position: absolute;
+    top: 15%;
+}
+
+/* About */
+
+.about {
+    margin-top: 80px;
+    margin-bottom: 70px;
+}
+
+.about__icon {
+    margin-bottom: 20px;
+}
+
+.about__inner {
+    display: flex;
+}
+.about__item {
+    flex: 1 1 0;
+    text-align: center;
+    padding: 10px;
+}
+.about__name {
+    font-size: 1.3em;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.about__text {
+    color: #949292;
+    font-size: 0.9em;
+}
+
+/* RECENT WORK */
+
+.recent__text {
+    font-weight: 700;
+    font-size: 1.3em;
+}
+hr {
+    padding: 0;
+    margin: 0;
+}
+.recent__images {
+    display: flex;
+    margin-top: 30px;
+    align-items: flex-end;
+}
+
+.recent__item {
+    flex: 1 1 0;
+    width: 25%;
+    
+}
+
+.recent__img {
+    margin: 0;
+    padding: 0;
+}
+
